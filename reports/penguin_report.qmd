@@ -1,0 +1,39 @@
+---
+title: "Penguin Body Mass Summary"
+format: html
+---
+
+```{r setup}
+
+# Tell R to start from the project root so it can find config/global.dcf
+setwd("..")  # Move one folder up from 'reports/' to the main project
+
+# Load the project environment (libraries, cached data, etc.)
+ProjectTemplate::load.project()
+```
+
+```{r}
+#Inspect the summary data
+head(penguins_summary)
+```
+
+```{r}
+library(ggplot2)
+
+ggplot(penguins_summary, aes(x = species, y = body_mass_kg_mean)) +
+geom_col(fill = "#0077bf") +
+geom_errorbar(
+aes(
+ymin = body_mass_kg_mean - body_mass_kg_sd,
+ymax = body_mass_kg_mean + body_mass_kg_sd
+),
+width = 0.2
+) +
+labs(
+title = "Average Penguin Body Mass (kg) by Species",
+x = "Species",
+y = "Mean ± SD (kg)"
+) +
+theme_minimal()
+
+```
