@@ -1,0 +1,6 @@
+project:
+  type: website  # or "book" or "default"
+  
+format:
+  html:
+    theme: default
