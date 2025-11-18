@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.5.0",
+  "metadata": {
+    "appmode": "static",
+    "primary_rmd": null,
+    "primary_html": "reports/penguin_report.qmd",
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": null,
+  "files": {
+    ".RData": {
+      "checksum": "c563a6058b03a673820de3afa9d83c01"
+    },
+    ".Rprofile": {
+      "checksum": "a5916780b23a583733e4a6b825d96049"
+    },
+    "cache/penguins.hash": {
+      "checksum": "d8306af2dd708181b47d8976e73f6302"
+    },
+    "cache/penguins.RData": {
+      "checksum": "7bd1cdb75e2e11022c1ebcee8615fdfa"
+    },
+    "cache/README.md": {
+      "checksum": "b1f3717c1a11db97b554cfdc120e4df4"
+    },
+    "config/global.dcf": {
+      "checksum": "d5545b81729c5529908a8133e8019ca6"
+    },
+    "config/README.md": {
+      "checksum": "ebf87a3053eb2ccc21840d1618b9b6aa"
+    },
+    "data/penguins.csv": {
+      "checksum": "375b82df4a44453892794e2704332d4e"
+    },
+    "data/README.md": {
+      "checksum": "a326fd69f3ba3da9534273d09c9b8ee9"
+    },
+    "munge/01_clean_penguins.r": {
+      "checksum": "82170300434cb6f47fdb3c3f2978ce0e"
+    },
+    "munge/01-A.R": {
+      "checksum": "495ed04aa1595530df2085235764988f"
+    },
+    "munge/02_summarize_penguins..r": {
+      "checksum": "ca63bd3e316f98623da8caefcc8dd431"
+    },
+    "munge/README.md": {
+      "checksum": "fae6c4661578142504f387ad14fc68bc"
+    },
+    "README.md": {
+      "checksum": "5d50cb113af3db5d95c7819448044b1e"
+    },
+    "renv.lock": {
+      "checksum": "a26c66cadd62bcf9a4f3990019be0945"
+    },
+    "reports/penguin_report.qmd": {
+      "checksum": "d58a7705fd11c81c17458870e5e27173"
+    },
+    "src/eda.R": {
+      "checksum": "548b98ca6abafdc6ad4513869005942a"
+    },
+    "src/README.md": {
+      "checksum": "f1631d44106dd27cfbddac20fe096312"
+    }
+  },
+  "users": null
+}
