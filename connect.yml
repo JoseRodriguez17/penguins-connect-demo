@@ -1,0 +1,4 @@
+# These settings tell Posit Connect to build a Quarto document
+content:
+  - source: reports/penguin_report.qmd
+    quarto: true
