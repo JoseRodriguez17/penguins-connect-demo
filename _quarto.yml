@@ -1,9 +1,0 @@
-project:
-  type: default
-
-render:
-  - reports/penguin_report.qmd
-
-format:
-  html:
-    theme: default
