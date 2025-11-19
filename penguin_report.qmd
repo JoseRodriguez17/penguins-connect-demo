@@ -4,6 +4,7 @@ format: html
 ---
 
 ```{r setup}
+library(tidyverse)
 
 # Tell R to start from the project root so it can find config/global.dcf
 setwd("..")  # Move one folder up from 'reports/' to the main project
